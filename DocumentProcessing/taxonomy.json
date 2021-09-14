@@ -1,0 +1,255 @@
+﻿{
+  "DataContractVersion": "1.0",
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "TestGroup.TestCategory.TestDoc",
+      "Group": "TestGroup",
+      "Category": "TestCategory",
+      "Name": "TestDoc",
+      "OptionalUniqueIdentifier": "12345",
+      "TypeField": {
+        "FieldId": "TestGroup.TestCategory.TestDoc.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "TestGroup.TestCategory.TestDoc.TestFeild",
+          "FieldName": "CustomerID",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": null
+        },
+        {
+          "FieldId": "TestGroup.TestCategory.TestDoc.Date",
+          "FieldName": "Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": null
+        },
+        {
+          "FieldId": "TestGroup.TestCategory.TestDoc.CreditNoteNo",
+          "FieldName": "Credit Note No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": null
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "TestGroup.TestCategory.TestDoc1",
+      "Group": "TestGroup",
+      "Category": "TestCategory",
+      "Name": "TestDoc1",
+      "OptionalUniqueIdentifier": "4321",
+      "TypeField": {
+        "FieldId": "TestGroup.TestCategory.TestDoc1.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "TestGroup.TestCategory.TestDoc1.Date",
+          "FieldName": "Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": null
+        },
+        {
+          "FieldId": "TestGroup.TestCategory.TestDoc1.Customer",
+          "FieldName": "Customer",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": null
+        },
+        {
+          "FieldId": "TestGroup.TestCategory.TestDoc1.InvoiceNo",
+          "FieldName": "Invoice No",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": null
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "TestGroup.TestCategory.Test3",
+      "Group": "TestGroup",
+      "Category": "TestCategory",
+      "Name": "Test3",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "TestGroup.TestCategory.Test3.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "TestGroup.TestCategory.Test3.Customer",
+          "FieldName": "Customer",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": null
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "TestGroup.TestCategory.Test4",
+      "Group": "TestGroup",
+      "Category": "TestCategory",
+      "Name": "Test4",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "TestGroup.TestCategory.Test4.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "TestGroup.TestCategory.Test4.Details",
+          "FieldName": "Details",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": null
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "TestGroup",
+      "Categories": [
+        "TestCategory"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    }
+  ]
+}
